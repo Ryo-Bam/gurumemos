@@ -1,0 +1,32 @@
+.question {
+    &_container {
+        // margin: 85px auto;
+        // max-width: 450px;
+        padding: 3rem;
+        height: auto;
+        // width: calc(100% - 2rem);
+        min-width: 300px;
+        z-index: 2;
+    }
+    &_content {
+        padding: 0 3rem 3rem 3rem;
+        height: auto;
+        min-width: 300px;
+        z-index: 2;
+    }
+    &_display {
+        display: grid;
+    }
+    &_z {
+        z-index: -1;
+    }
+    &_zo {
+        z-index: -1;
+    }
+}
+
+.button {
+    &_right {
+        text-align: end;
+    }
+}

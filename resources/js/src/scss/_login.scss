@@ -1,0 +1,26 @@
+.login {
+  &_container {
+    margin: 85px auto;
+    max-width: 400px;
+    padding: 1rem;
+    height: auto;
+    width: calc(100% - 2rem);
+  }
+  //   &_headline {
+  //     color: #4dd0e1;
+  //     font-size: 1.563rem;
+  //     margin: 0 auto 1rem auto;
+  //   }
+  &_text_center {
+    text-align: center;
+  }
+  &_center {
+    margin: 0 auto;
+    text-align: center;
+  }
+  &_name {
+    font-size: 30px;
+    font-weight: "bold";
+    color: #000;
+  }
+}

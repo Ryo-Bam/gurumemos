@@ -1,0 +1,13 @@
+.memoplate {
+  &_container {
+    margin: 85px auto;
+    max-width: 400px;
+    padding: 1rem;
+    height: auto;
+    width: calc(100% - 2rem);
+  }
+}
+
+.MuiInputBase-inputMarginDense {
+  padding-top: 13px;
+}

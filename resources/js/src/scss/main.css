@@ -1,0 +1,396 @@
+@charset "UTF-8";
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ffebc2; }
+
+.home_body {
+  margin-top: 80px;
+  margin-right: 50px;
+  display: flex; }
+.home_container {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 1rem 3rem;
+  height: auto;
+  width: calc(100% - 2rem);
+  background-color: #fff;
+  display: flex; }
+  @media screen and (max-width: 1049px) {
+    .home_container {
+      justify-content: center; } }
+.home_name {
+  font-size: 2.5rem;
+  font-family: monospace;
+  margin: 2rem 0; }
+.home_right {
+  margin: 0; }
+.home_display {
+  display: flex; }
+  @media screen and (max-width: 1049px) {
+    .home_display {
+      display: grid;
+      text-align: center; } }
+.home_text {
+  font-family: monospace;
+  font-size: 1.2rem; }
+.home_title {
+  font-family: monospace;
+  font-size: 2rem; }
+.home_log {
+  padding-bottom: 0;
+  width: 146px;
+  height: 0;
+  background-color: #ffebc2; }
+.home_srv {
+  max-width: 20px; }
+.home_logbgc {
+  background-color: #ffebc2; }
+
+#app {
+  background-color: #ffebc2; }
+
+.image {
+  margin: 5px;
+  width: 200px;
+  height: auto; }
+  .image_label {
+    display: block;
+    width: 160px;
+    height: 30px;
+    border: 1px black solid;
+    background: #f9eca4;
+    color: #000;
+    position: relative; }
+    .image_label:hover {
+      background: #fff375;
+      color: black;
+      cursor: pointer; }
+  .image_name {
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
+    left: 10px; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 16px;
+  line-height: 1.67;
+  padding-top: 85px; }
+
+.inner {
+  width: 80.6%;
+  padding: 90px 0;
+  margin: 0 auto; }
+
+.module-spacer-super-small {
+  height: 6px; }
+.module-spacer-small {
+  height: 12px; }
+.module-spacer-small-pulus {
+  height: 20px; }
+.module-spacer-medium {
+  height: 32px; }
+
+.login_container {
+  margin: 85px auto;
+  max-width: 400px;
+  padding: 1rem;
+  height: auto;
+  width: calc(100% - 2rem); }
+.login_text_center {
+  text-align: center; }
+.login_center {
+  margin: 0 auto;
+  text-align: center; }
+.login_name {
+  font-size: 30px;
+  font-weight: "bold";
+  color: #000; }
+
+.map_search {
+  margin-bottom: 2rem; }
+
+.memo_container {
+  max-width: 450px;
+  padding: 3rem 3rem 1rem;
+  height: auto;
+  min-width: 300px;
+  box-sizing: content-box;
+  z-index: 1; }
+.memo_overlay {
+  /*　画面全体を覆う設定　*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  /*　画面の中央に要素を表示させる設定　*/
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.memo_content {
+  z-index: 2;
+  width: 70%;
+  padding: 1em;
+  background: #fff; }
+.memo_img {
+  display: inline-block;
+  max-width: 80%; }
+.memo_title {
+  font-size: 1.6rem;
+  font-weight: bold; }
+
+.newbtn_body {
+  margin-right: 50px;
+  text-align: end;
+  margin-left: 3rem; }
+
+.question_container {
+  padding: 3rem;
+  height: auto;
+  min-width: 300px;
+  z-index: 2; }
+.question_content {
+  padding: 0 3rem 3rem 3rem;
+  height: auto;
+  min-width: 300px;
+  z-index: 2; }
+.question_display {
+  display: grid; }
+.question_z {
+  z-index: -1; }
+.question_zo {
+  z-index: -1; }
+
+.button_right {
+  text-align: end; }
+
+.res_container {
+  padding: 3rem 3rem 0 3rem;
+  height: auto; }
+.res_content {
+  padding: 1rem 3rem 3rem 3rem;
+  height: auto; }
+.res_overlay {
+  /*　画面全体を覆う設定　*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  /*　画面の中央に要素を表示させる設定　*/
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.res_contents {
+  z-index: 2;
+  width: 50%;
+  padding: 1em;
+  background: #fff; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+*,
+*::after,
+*::before {
+  box-sizing: border-boxzs; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.signup_container {
+  margin: 85px auto;
+  max-width: 400px;
+  padding: 1rem;
+  height: auto;
+  width: calc(100% - 2rem); }
+.signup_text_center {
+  text-align: center; }
+.signup_center {
+  margin: 0 auto;
+  text-align: center; }
+.signup_name {
+  font-size: 30px;
+  font-weight: "bold";
+  color: #000; }
+
+.ratingsvg {
+  color: #c7c7c7;
+  cursor: pointer; }
+.ratingdiv {
+  width: 120px; }
+.ratingdiv:hover svg {
+  color: #d4b400; }
+.ratingsvg:hover ~ svg {
+  color: #c7c7c7; }
+
+.clickedStar {
+  color: #d4b400; }
+
+.star_input {
+  display: none; }
+
+.stars_content {
+  text-align: center; }
+
+.swiper {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+/////////////////
+//    共通     //
+/////////////////
+
+html {
+    font-size: 62.5%; // 10px
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.67;
+    padding-top: 85px;
+}
+
+.inner {
+    width: 100% - 9.7% * 2; //9.7%は両側の余白
+    padding: 90px 0;
+    margin: 0 auto;
+}
+
+////////////////Module Spacer/////////////
+.module-spacer {
+    &-super-small {
+        height: 6px;
+    }
+    &-small {
+        height: 12px;
+    }
+    &-small-pulus {
+        height: 20px;
+    }
+    &-medium {
+        height: 32px;
+    }
+}
+
+// @mixin sp {
+//   @media screen and (max-width: 600px){
+//       @content;
+//   }
+// }
